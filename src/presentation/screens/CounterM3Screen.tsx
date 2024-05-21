@@ -14,7 +14,7 @@ export const CounterM3Screen = () => {
         // label="+1"
         icon="add"
         onPress={() => {
-          console.log('Pressed');
+          setCount(count + 1);
         }}
         style={globalStyles.fab}
       />
