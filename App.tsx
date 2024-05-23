@@ -4,7 +4,10 @@ import {
   CounterScreen,
   CounterM3Screen,
   DimensionsScreen,
+  FlexDirection,
+  FlexScreen,
   HelloWorldScreen,
+  PositionScreen,
 } from './src/presentation/screens';
 import {PaperProvider} from 'react-native-paper';
 import IonIcon from 'react-native-vector-icons/Ionicons';
@@ -20,7 +23,10 @@ export const App = () => {
         {/* <CounterScreen /> */}
         {/* <CounterM3Screen /> */}
         {/* <BoxObjectModelScreen /> */}
-        <DimensionsScreen />
+        {/* <DimensionsScreen /> */}
+        {/* <PositionScreen /> */}
+        {/* <FlexScreen /> */}
+        <FlexDirection />
       </SafeAreaView>
     </PaperProvider>
   );
