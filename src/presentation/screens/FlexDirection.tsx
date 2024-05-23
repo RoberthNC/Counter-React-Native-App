@@ -6,6 +6,19 @@ export const FlexDirection = () => {
       <View style={[styles.box, styles.box1]} />
       <View style={[styles.box, styles.box2]} />
       <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box4]} />
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box4]} />
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box4]} />
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box4]} />
     </View>
   );
 };
@@ -17,6 +30,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     flexDirection: 'row',
     alignItems: 'stretch',
+    flexWrap: 'wrap',
+    gap: 1,
   },
   box: {
     height: 100,
@@ -30,5 +45,8 @@ const styles = StyleSheet.create({
   },
   box3: {
     backgroundColor: '#2e2d71',
+  },
+  box4: {
+    backgroundColor: '#060536',
   },
 });

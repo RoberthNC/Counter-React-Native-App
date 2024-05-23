@@ -5,4 +5,5 @@ export * from './DimensionsScreen';
 export * from './FlexDirection';
 export * from './FlexScreen';
 export * from './HelloWorldScreen';
+export * from './HomeWork';
 export * from './PositionScreen';

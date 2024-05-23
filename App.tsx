@@ -7,6 +7,7 @@ import {
   FlexDirection,
   FlexScreen,
   HelloWorldScreen,
+  HomeWorkScreen,
   PositionScreen,
 } from './src/presentation/screens';
 import {PaperProvider} from 'react-native-paper';
@@ -26,7 +27,8 @@ export const App = () => {
         {/* <DimensionsScreen /> */}
         {/* <PositionScreen /> */}
         {/* <FlexScreen /> */}
-        <FlexDirection />
+        {/* <FlexDirection /> */}
+        <HomeWorkScreen />
       </SafeAreaView>
     </PaperProvider>
   );
